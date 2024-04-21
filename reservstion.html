@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservation.css">
+    <title>Anand's Restaurant</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contain">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#">
+                    <img src="logo.jpg" alt="Anand's Restaurant Logo">
+                </a>
+            </div>
+            
+            <!-- Navigation -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="reservstion.html">Reservations</a></li>
+                    <li><a href="info.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Call to Action -->
+            <div class="cta">
+                <button id="reserve-button">login</button>
+            </div>
+        </div>
+    </header>
+    <!-- Reservation Section -->
+    <section class="reservation-section">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            
+            <!-- Reservation Form -->
+            <form id="reservation-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time">Time:</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" required>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div id="reservation-status"></div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Contact Information -->
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Near Vellore Institute of Technology<br>
+                        Vellore, Tamil Nadu, 632014</p>
+                    <p>Phone: 8287658436</p>
+                    <p>Email: harsh.anand2022a@vitstudent.ac.in</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="reservstion.html">Reservations</a></li>
+                        <li><a href="info.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <ul class="social-media-links">
+                        <li><a href=""><img src="facebook.png" alt="Facebook"></a></li>
+                        <li><a href=""><img src="twitter.png" alt="Twitter"></a></li>
+                        <li><a href="https://www.instagram.com/harsh.anand.09?igsh=MWpldXN1dDluNmw0Yw=="><img src="insta.png" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <p>&copy; 2024 Anand's Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="reservation.js"></script>
+</body>
+
+</html>

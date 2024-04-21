@@ -1,0 +1,55 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Burger Container */
+.burger-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Burger Item */
+.burger-item {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Burger Image */
+.burger-image img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-right: 1px solid #ccc;
+}
+
+/* Burger Details */
+.burger-details {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Burger Details Heading */
+.burger-details h3 {
+    margin-top: 0;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    display: inline-block;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #e0553b;
+}

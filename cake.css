@@ -1,0 +1,55 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cake Container */
+.cake-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Cake Item */
+.cake-item {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Cake Image */
+.cake-image img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-right: 1px solid #ccc;
+}
+
+/* Cake Details */
+.cake-details {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Cake Details Heading */
+.cake-details h3 {
+    margin-top: 0;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    display: inline-block;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #e0553b;
+}
